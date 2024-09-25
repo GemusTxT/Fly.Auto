@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/fav/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./assets/img/fav/favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="./assets/css/shop.css">
+    <title>Главная</title>
+</head>
+<body>
+        <header class="header">
+            <div class="container">
+                <div class="header__block">
+                    <div class="header__logo">
+                        <img src="./assets/img/section4/Fly.Auto_logo.svg" alt="logo">
+                    </div>
+                <div class="header__item">
+                    <a href="./index.html"><p>Главная</p></a>
+                </div>
+                <form class="header__form" action="/search" method="GET">
+                    <div class="header__search">
+                        <input type="text" name="query" placeholder="Поиск" required>
+                    </div>
+                        <button class="header__button_search">
+                            <img class="header__search-img" src="./assets/img/section4/lupa.svg" alt="lupa">
+                        </button>
+                </form>
+                   <!-- BURGER -->
+                <div class="nav" id="nav">
+                    <ul>
+                        <li class="title">Menu</li>
+                        <li><a href="#why">Почему мы?</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="https://t.me/FIyAuto">Мы в Telegram</a></li>
+                        <li><a href="https://vk.com/club227521825">Мы в VK</a></li>
+                        <li><a href="./shop.html">Каталог</a></li>
+                    </ul>
+                </div>
+            <div class="burger">
+                <span></span>
+            </div>
+                </div>
+            </div>
+        </header>
+        <section class="main">
+            <div class="main__wrap">
+                <div class="container">
+                    <div class="main__categories">
+                        <div class="main__title">
+                            Категории товаров
+                        </div>
+                        <div class="main__checkbox">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option1"> Боковина
+                            </label>
+                            <label class="checkbox-label">
+                                <input class="checkbox-text" type="checkbox" name="option2"> Валы карданные
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option3"> Борт задний
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option1"> Вентиляция<br> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;и <br>&nbsp;&nbsp; отопление
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option2"> Дверь задняя
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option3"> Дверь передняя
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option1"> Двигатель УМЗ, ЗМЗ
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option2"> Инструменты <br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; и  <br>&nbsp;&nbsp;&nbsp;&nbsp;принадлежности
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option3"> Колеса и ступицы
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option1"> Коробка передач
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option2"> Крыша
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option3"> Кузов
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option1"> Литература
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option2"> Подвеска
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="option3"> Подшипники
+                            </label>
+                        </div>
+                        <div class="main__price">
+                            <div class="main__price-title"><p>Цена товара, ₽</p></div>
+                            <form class="main__form">
+                                <div class="main__price-min">
+                                    <input type="number">
+                                </div>
+                                <div class="main__price-line"><img src="./assets/img/section4/Line 13.svg" alt="line"></div>
+                                <div class="main__price-max">
+                                    <input type="number">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="main__button">
+                            <button type="button" onclick="location.href='#'"><p>Применить</p></button>
+                        </div>
+                    </div>
+                    <div class="main__sorting">
+                        <form action="/sumbit" method="POST">
+                            <label for="options">Сортировать по:</label>
+                            <select name="options" id="options" required>
+                                <option value="" disabled selected>-- Выберите --</option>
+                                <option value="option1">Цене по возрастнаию</option>
+                                <option value="option2">Цене по убыванию</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="main__block">
+                        <div class="main__cards">
+                            <div class="main__cards-top">
+                                <div class="card1 card">
+                                    <a href="./card.html"><img src="./assets/img/section4/card1.png" alt="card1"></a>
+                                </div>
+                                <div class="card2 card">
+                                    <a href="#"><img src="./assets/img/section4/card2.png" alt="card2"></a>
+                                </div>
+                                <div class="card3 card">
+                                    <a href="#"><img src="./assets/img/section4/card3.png" alt="card3"></a>
+                                </div>
+                                <div class="card4 card">
+                                    <a href="#"><img src="./assets/img/section4/card4.png" alt="card4"></a>
+                                </div>
+                            </div>
+                            <div class="main__cards-bot">
+                                <div class="card5 card">
+                                    <a href="#"><img src="./assets/img/section4/card5.png" alt="card5"></a>
+                                </div>
+                                <div class="card6 card">
+                                    <a href="#"><img src="./assets/img/section4/card6.png" alt="card6"></a>
+                                </div>
+                                <div class="card7 card">
+                                    <a href="#"><img src="./assets/img/section4/card7.png" alt="card7"></a>
+                                </div>
+                                <div class="card8 card">
+                                    <a href="#"><img src="./assets/img/section4/card8.png" alt="card8"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__marketing">
+                        <img src="./assets/img/section4/finish.svg" alt="finish">
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrap">
+            <div class="footer__more">
+                <ul class="footer__nav">
+                    <li class="footer__nav-title">Подробнее</li>
+                    <li class="footer__nav-link"><a href="./index.html#why">Почему мы?</a></li>
+                    <li class="footer__nav-link"><a href="./index.html#reviews">Отзывы</a></li>
+                    <li><a href="./index.html#about">О нас</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <ul class="footer__contacts">
+                    <li class="footer__info-title">Информация</li>
+                    <li class="footer__info-link"><a href="#">Политика конфинденциальности</a></li>
+                    <li class="footer__info-link"><p>kirilloffwhite1335@gmail.com</p></li>
+                </ul>
+                <div class="footer__info_media">
+                    <div class="footer__tg"><a href="https://t.me/FIyAuto"><img src="./assets/img/footer/telegram.svg" alt="telegram"></a></div>
+                    <div class="footer__vk"><a href="https://vk.com/club227521825"><img src="./assets/img/footer/icon-vk 2 1.svg" alt="vk"></a></div>
+                </div>
+            </div>
+            <div class="footer__logo">
+                <img src="./assets/img/footer/Fly.Auto_logo.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- СКРИПТ ДЛЯ БУРГЕРА -->
+<script>
+    document.querySelector('.burger').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.querySelector('.nav').classList.toggle('open');
+    })
+</script>
+<script src="./assets/js/script.js"></script>
+</html>

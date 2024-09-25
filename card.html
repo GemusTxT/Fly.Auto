@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/fav/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./assets/img/fav/favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <title>Tesla Model Y Wheel</title>
+</head>
+<body>
+        <header class="header">
+            <div class="container">
+                <div class="header__block">
+                    <div class="header__logo">
+                        <img src="./assets/img/section4/Fly.Auto_logo.svg" alt="logo">
+                    </div>
+                <div class="header__item">
+                    <a href="./index.html"><p>Главная</p></a>
+                </div>
+                <form class="header__form" action="/search" method="GET">
+                    <div class="header__search">
+                        <input type="text" name="query" placeholder="Поиск" required>
+                    </div>
+                        <button class="header__button_search">
+                            <img class="header__search-img" src="./assets/img/section4/lupa.svg" alt="lupa">
+                        </button>
+                </form>
+                   <!-- BURGER -->
+                <div class="nav" id="nav">
+                    <ul>
+                        <li class="title">Menu</li>
+                        <li><a href="#why">Почему мы?</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="https://t.me/FIyAuto">Мы в Telegram</a></li>
+                        <li><a href="https://vk.com/club227521825">Мы в VK</a></li>
+                        <li><a href="./shop.html">Каталог</a></li>
+                    </ul>
+                </div>
+            <div class="burger">
+                <span></span>
+            </div>
+                </div>
+            </div>
+        </header>
+        <section class="main">
+            <div class="main__container">
+                <div class="main__wrap">
+                    <div class="main__photo">
+                        <img src="./assets/img/section5/tesla.png" alt="tesla">
+                        <button type="button" onclick="location.href='https://vk.com/club227521825'"><p>Купить</p></button>
+                        <div class="main__media">
+                            <a href="https://t.me/FIyAuto"><img src="./assets/img/section5/telegram.svg" alt="tg"></a>
+                            <a href="https://vk.com/club227521825"><img src="./assets/img/section5/icon-vk 2 2.svg" alt="vk"></a>
+                        </div>
+                    </div>
+                    <div class="main__texts">
+                        <div class="main__subtitle">
+                            <p>ST20101005114SBFF42554025540B</p>
+                        </div>
+                        <div class="main__title">
+                            <p>TST 20" Tesla Model Y Wheel and Tire Package (Набор из 4)</p>
+                        </div>
+                        <div class="main__price">
+                            27 775 ₽
+                        </div>
+                        <div class="main__color">
+                            Цвет: Satin Black
+                        </div>
+                        <div class="main__size">
+                            <p class="main__size-title">Размер</p>
+                            <form action="/sumbit" method="POST">
+                                <label for="options"></label>
+                                <select name="options" id="options" required>
+                                    <option value="" disabled selected>-- Выберите --</option>
+                                    <option value="option1">20x10” Front & Rear</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="main__model">
+                            <p class="main__model-title">Фирма & Модель</p>
+                            <form action="/sumbit" method="POST">
+                                <label for="options"></label>
+                                <select name="options" id="options" required>
+                                    <option value="" disabled selected>-- Выберите --</option>
+                                    <option value="option1">Falken Azenis FK460 Полный сезон</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="main__description">
+                            <div class="main__description-title">
+                                <p>Описание</p>
+                            </div>
+                            <ul class="main__description-list">
+                                <li>Размер: 20x10 дюймов</li>
+                                <li>Смещение: +40</li>
+                                <li>Схема крепления болтов (PCD): 5x114,3</li>
+                                <li>Центральное отверстие: 64,1 </li>
+                                <li>Конструкция: Кованая по потоку</li>
+                                <li>Вес: 31 фунт</li>
+                                <li>Грузоподъемность: 900 кг / 1 980 фунтов</li>
+                                <li>Размер шин: 255/40-20</li>
+                                <li>Цвета: Космический серый</li>
+                                <li>Шины (при наличии): Всесезонная шина Continental<br> 
+                                    ExtremeContact DWS06 Plus, Всесезонная шина Falken Azenis<br> 
+                                    FK460
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrap">
+            <div class="footer__more">
+                <ul class="footer__nav">
+                    <li class="footer__nav-title">Подробнее</li>
+                    <li class="footer__nav-link"><a href="./index.html#why">Почему мы?</a></li>
+                    <li class="footer__nav-link"><a href="./index.html#reviews">Отзывы</a></li>
+                    <li><a href="./index.html#about">О нас</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <ul class="footer__contacts">
+                    <li class="footer__info-title">Информация</li>
+                    <li class="footer__info-link"><a href="#">Политика конфинденциальности</a></li>
+                    <li class="footer__info-link"><p>kirilloffwhite1335@gmail.com</p></li>
+                </ul>
+                <div class="footer__info_media">
+                    <div class="footer__tg"><a href="https://t.me/FIyAuto"><img src="./assets/img/footer/telegram.svg" alt="telegram"></a></div>
+                    <div class="footer__vk"><a href="https://vk.com/club227521825"><img src="./assets/img/footer/icon-vk 2 1.svg" alt="vk"></a></div>
+                </div>
+            </div>
+            <div class="footer__logo">
+                <img src="./assets/img/footer/Fly.Auto_logo.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- СКРИПТ ДЛЯ БУРГЕРА -->
+<script>
+    document.querySelector('.burger').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.querySelector('.nav').classList.toggle('open');
+    })
+</script>
+<script src="./assets/js/script.js"></script>
+</html>
